@@ -1,0 +1,31 @@
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.el {
+    border: 1px solid #2d2d2d;
+    margin: 5px;
+    width: 30%;
+    text-align: center;
+  }
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
